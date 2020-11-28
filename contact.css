@@ -1,0 +1,170 @@
+*{
+	margin: 0;
+	height: auto;
+}
+.hdr{
+	background-color: rgb(58, 163, 154);
+	display: flex;
+}
+h3 {
+	font-size: 20px;
+	display: inline-flex;
+	margin-top: 25px;
+	margin-left: 10px;
+	color: white;
+	font-family: bold Arial, Helvetica, sans-serif;
+	background-color: rgb(58, 163, 154);
+}
+h4{
+	font-size: x-large;
+	text-align: center;
+	font-family: bold Arial, Helvetica, sans-serif;
+}
+p{
+	font-size: medium;
+	text-align: center;
+	margin-top: 30px;
+}
+#logo{
+	border-radius: 52%;
+	width: 5%;
+	height: 7%;
+	margin-left: 2%;
+	outline: none;
+}
+.a{
+	margin: 10px;
+	text-decoration: none;
+	margin-top: 30px;
+}
+.a:hover{
+	color: red;
+
+}
+#home{
+	margin-left: 65%;
+}
+.icon-bar {
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0px;	
+  }
+  .icon-bar a {
+	display: block;
+	text-align: center;
+	padding: 15px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+	outline: none;
+  }
+  .icon-bar a:hover {
+	background-color: #000;
+  }
+  .facebook {
+	background-color: #3B5998;
+	color: white;
+  }
+  .twitter {
+	background-color: #55ACEE;
+	color: white;
+  }
+  .google {
+	background-color: #dd4b39;
+	color: white;
+  }
+  .insta {
+	background-color:mediumseagreen;
+	color: white;
+  }
+  .whatsapp {
+	background-color: #bb0000;
+	color: white;
+  }
+h1{
+	color: white;
+	font-size: medium;
+	text-align: center;
+	background-color: rgb(58, 163, 154);
+}
+#cup{
+	width: 80%;
+	height: 50%;
+	margin-left: 200px;
+	margin-top: 5px;
+	align-items: center;
+}
+#cfm{
+	margin-left:200px;
+}
+input[type=text], select, textarea {
+	width: 680px;
+	padding: 15px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+
+  }
+  
+  input[type=submit], [type=reset] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+	outline: none;
+	opacity: 0.6;
+	transition: 0.3s;
+  }
+  input[type=submit]:hover, [type=reset]:hover{
+	opacity: 1.4;
+	box-shadow: 0 5px dimgray;
+
+  }
+input[type=submit]:active, [type=reset]:active{
+	box-shadow: 0 2px dimgrey;
+	transform: translateY(4px);
+}
+  /* Style the container/contact section */
+  .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px;
+	align-items: center;
+	margin-left: 80px;
+	margin-right: 80px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column, input[type=submit] {
+	  width: 100%;
+	  margin-top: 0;
+	}
+  }
+footer{
+	background-color: rgb(58, 163, 154);
+	margin bottom:0px;
+
+}

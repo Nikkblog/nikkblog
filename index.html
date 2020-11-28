@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Skills</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+<body>
+	<div class=hdr>
+		<img src="l.jpg" id=logo>
+		<h3> My Skills </h3>
+	</div>
+	<div class=subs>
+		<label><b> Subscribe</b></label>
+	</div>
+	<div class=sdbtn>
+		<a href="#" id=act>My Account</a>
+		<a href="contact.html" target=_self id=contact>Contact Us</b></a>
+		<a href="form.html" target=_self class=a id=frm> Form</a>
+		<a href="#" id=abt>About Us</a>
+		<img src=img2.jpg id=img2>
+	</div>
+	
+	<hr style="background-color: black;">
+	<div id=img3>
+		<img src="tiktok.jpg"><br><br>
+		<img src="bg3.jpg" id=skill><br><br>
+		<img src="photo1.jpg">
+	</div>
+	<div id=line> </div>
+	<div class=tab>
+		<button class=tablinks id=b1 onclick="openContent(event, 'tiktok')" > Tiktok </button>
+		<button class=tablinks id=b2 onclick="openContent(event, 'skills')" > Skills </button>
+		<button class=tablinks id=b3 onclick="openContent(event, 'photos')" > Photos </button>	
+	</div>
+	<div class=tabcontent id="tiktok">
+		<h2> Tiktok </h2>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik1.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik2.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik3.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik4.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik5.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik6.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik7.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik8.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik9.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik10.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik11.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik12.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik13.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik14.mp4">
+			</video>
+			<video class=tik width="200px" height="150px" controls>
+				<source src="tiktok/tik15.mp4">
+			</video>
+	</div>
+	<div class=tabcontent id="skills">
+		<h2> Skills </h2>
+			<img src="skills/s1.jpeg" width="200px">
+			<img src="skills/s2.jpeg" width="200px">
+			<img src="skills/s3.jpeg" width="200px"> 
+			<img src="skills/s4.jpeg" width="200px">
+			<img src="skills/s5.jpeg" width="200px"> 
+			<img src="skills/s6.jpeg" width="200px">
+			<img src="skills/s7.jpeg" width="200px"> 
+			<img src="skills/s8.jpeg" width="200px"> 
+	</div>
+	<div class=tabcontent id="photos">
+		<h2> Photos </h2>
+			<img src="photos/p1.jpeg" width="200px" onclick="Function(this);">
+			<img src="photos/p2.jpeg" width="200px" onclick="Function(this);">
+			<img src="photos/p3.jpeg" width="200px" onclick="Function(this);">
+			<img src="photos/p4.jpeg" width="200px" onclick="Function(this);"> 
+			<img src="photos/p5.jpeg" width="200px" onclick="Function(this);"> 
+			<img src="photos/p6.jpeg" width="200px" onclick="Function(this);">
+			<img src="photos/p7.jpeg" width="200px" onclick="Function(this);"> 
+			<img src="photos/p8.jpeg" width="200px" onclick="Function(this);"> 
+			<img src="photos/p9.jpeg" width="200px" onclick="Function(this);"> 
+			<img src="photos/p10.jpeg" width="200px" onclick="Function(this);"> 
+			<img src="photos/p11.jpeg" width="200px" onclick="Function(this);"> 
+			<img src="photos/p12.jpeg" width="200px" onclick="Function(this);"> 
+			<img src="photos/p13.jpeg" width="200px" onclick="Function(this);"> 
+			<img src="photos/p14.jpeg" width="200px" onclick="Function(this);"> 
+			<img src="photos/p15.jpeg" width="200px" onclick="Function(this);"> 
+			<img src="photos/p16.jpeg" width="200px" onclick="Function(this);"> 
+			<img src="photos/p17.jpeg" width="200px" onclick="Function(this);"> 
+	</div>
+<script>
+	function openContent(evt, cityName)
+	{
+		var i, tabcontent, tablinks;
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) 
+		{
+			tabcontent[i].style.display = "none";
+		}
+		tablinks = document.getElementsByClassName("tablinks");
+		for (i = 0; i < tablinks.length; i++) 
+		{
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		}
+		document.getElementById(cityName).style.display = "block";
+		evt.currentTarget.className += " active";
+	}
+</script>
+<footer>
+	<br>
+	<b><h1>Copyright &copy; My Skills 2020</h1>
+	<h1>Made by &hearts;</h1></b>
+	<br>
+</footer>
+</body>
+</html>

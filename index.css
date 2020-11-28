@@ -1,0 +1,193 @@
+*{
+	background-color: rgb(190, 185, 185);
+	margin: 0;
+	height: auto;
+}
+.hdr{
+	background-color: rgb(58, 163, 154);
+	display: flex;
+}
+h3{
+	font-size: 20px;
+	display: inline-flex;
+	margin-top: 25px;
+	margin-left: 10px;
+	color: white;
+	font-family: bold italic;
+	background-color: rgb(58, 163, 154);
+}
+#logo{
+	border-radius: 52%;
+	width: 5%;
+	height: 7%;
+	margin-left: 2%;
+	outline: none;
+}
+.subs{
+	color: red;
+	font-size: 25px;
+	text-align: right;
+}
+.sdbtn a{
+	padding: 7px;	
+	font-size: medium ;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	border-radius: 0 10px 10px 0;
+	text-decoration: none;
+	opacity: 0.6;
+	position: absolute;
+	height: 3.5%;
+	width: 8%;
+	text-align: center;
+	transition: 0.3s;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	left: -98px;	
+}
+.sdbtn a:hover{
+	opacity: 1.4;
+	box-shadow: 0 7px rgb(95, 93, 93);
+	left: 0px;
+}
+.sdbtn a:active{
+	box-shadow: 0 2px rgb(66, 65, 65);
+	transform: translateY(2px);
+}
+#abt{
+	top: 20%;
+	background-color: rgb(4, 148, 243);
+}
+#contact{
+	top: 26%;
+	background-color: rgb(236, 137, 8);
+}
+#act{
+	top: 38%;
+	background-color: rgb(226, 38, 126);
+}
+#frm{
+	top: 32%;
+	background-color: rgb(12, 75, 12);
+}
+.sdbtn #img2{
+	width: 70%;
+	height: 35%;
+	margin-left: 15%;
+	top: 25%;
+}
+hr{
+	background-color: black;
+}
+#img3 img{
+	width: 42%;
+	height: 8%;
+	margin-left: 5%;
+}
+#img3 #skill{
+	width: 42%;
+	height: 8%;
+	margin-left: 55%;
+}
+#line{
+	width: 850px;
+	height: 3px;
+	background-color: black;
+	margin: 6px 0;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.btn a{
+	padding: 20%;
+	text-decoration: none;
+	outline: none;
+	font-size: medium;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: white;
+	background-color: rgb(58, 163, 154);
+	padding: 10px;
+	opacity: 0.6;
+	transition: 0.3s;
+	border-radius: 15px;
+	width: 100px;
+	height: 3%;
+	margin-top: 20px;
+}
+#tik{
+margin-left: 25%;
+}
+#skl{
+margin-left: 10%;
+}
+#pht{
+margin-left: 10%;
+}
+h1{
+	color: white;
+	font-size: medium;
+	text-align: center;
+	background-color: rgb(58, 163, 154);
+}
+h2{
+	text-align: center;
+	color: Black;
+} 
+  /* Style the tab */
+.tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+  }
+  /* button spacing */
+  .tab #b1{
+	margin-left: 32%;
+  }
+  .tab #b2{
+	  margin-left: 50px;
+  }
+  .tab #b3{
+	  margin-left: 50px;
+  }
+.tik{
+	width: 10%;
+	display: inline-table;
+}
+  
+  .tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+  }
+  /* Style the buttons inside the tab */
+  .tab button {
+	border-radius: 13px;
+	width: 130px;
+	height: 30px;
+	outline: none;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+	opacity: 1.7;
+	box-shadow: 0 5px dimgray;
+	background-color: rgb(129, 152, 161);
+	color: white;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+	box-shadow: 0 3px dimgrey;
+	background-color:rgb(160, 194, 207);
+  }
+  
+  /* Style the tab content */
+  .tabcontent{
+	display: none;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	border-top: none;
+	background-color: rgb(39, 39, 39);
+  }
+footer{
+	background-color: rgb(58, 163, 154);
+}
